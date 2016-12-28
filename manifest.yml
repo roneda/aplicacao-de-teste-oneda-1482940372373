@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-oneda
+  host: aplicacao-de-teste-oneda
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-oneda-AdvancedMobileAccess
+  - aplicacao-de-teste-oneda-imfpush
+  - aplicacao-de-teste-oneda-cloudantNoSQLDB
