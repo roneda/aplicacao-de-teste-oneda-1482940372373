@@ -19,7 +19,7 @@
     "passport": "^0.3.2",
     "serve-favicon": "^2.0.1",
     "cfenv":"",
-    "loopbak-connector-couch":""
+    "loopback-connector-couch":""
   },
   "repository": {
     "type": "git",
